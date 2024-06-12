@@ -1,10 +1,9 @@
-package br.com.victorparanhos.todolist.controller.task;
+package br.com.victorparanhos.todolist.task;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
-
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
