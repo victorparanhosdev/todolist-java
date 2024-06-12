@@ -18,7 +18,6 @@ public class TaskModel {
     @Id
     @GeneratedValue(generator = "UUID")
     private UUID id;
-    private String user;
     private String description;
 
     @Column(length = 50)
@@ -26,7 +25,7 @@ public class TaskModel {
     private LocalDateTime startAt;
     private LocalDateTime endAt;
     private String priority;
-    
+
     private UUID idUser;
 
     @CreationTimestamp
