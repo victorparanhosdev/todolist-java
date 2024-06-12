@@ -1,4 +1,4 @@
-package br.com.victorparanhos.todolist.controller;
+package br.com.victorparanhos.todolist.controller.user;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
